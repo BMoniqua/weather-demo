@@ -73,16 +73,16 @@ a {
 }
 
 .weather-app-icon {
-  font-size: 40px;
-  line-height: 0.5em;
-  vertical-align: baseline;
-  position: relative;
-  top: -0.1em;
+  width: 100px;
+  height: 100px;
+  margin-right: 1px;
 }
 
 .weather-app-temp {
   font-size: 110px;
-  margin-left: 1px;
+  margin-left: -1px;
+  font-weight: bold;
+  line-height: -20;
 }
 
 .weather-app-unit {
